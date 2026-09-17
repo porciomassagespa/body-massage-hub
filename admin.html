@@ -4,6 +4,7 @@ backend:
 
 media_folder: "images"
 public_folder: "/images"
+
 collections:
   - name: "pages"
     label: "Pages"
@@ -14,3 +15,5 @@ collections:
         fields:
           - {label: "Heading", name: "heading", widget: "string"}
           - {label: "Description", name: "description", widget: "text"}
+          - {label: "Banner Image", name: "image", widget: "image"}
+          - {label: "Promo Video Link", name: "video", widget: "string"}
